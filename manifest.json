@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "Netflix Genre Browser",
+  "description": "This extention provides access to hidden netflix genre lists.",
+  "version": "0.2",
+  "author":"Daniel Pollack",
+  "icons":{
+    "16":"icon16.png",
+    "32":"icon32.png",
+    "64":"icon64.png",
+    "128":"icon128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icon32.png",
+    "default_popup": "ListView.html",
+    "default_title": "Netflix Genre Browser"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://ajax.googleapis.com/",
+    "https://netflix.com/"
+  ],
+  "web_accessible_resources": [
+      "css/style.css"
+  ]
+}
