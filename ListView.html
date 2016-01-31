@@ -1,12 +1,18 @@
+<meta charset="UTF-8">
 <html>
   <head>
-    <!-- <style></style> -->
     <script src="jquery-2.2.0.min.js"></script>
     <script src="genres.js"></script>
     <script src="list.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
-  <body style="background-color:#141414;">
-    <div style="width:6cm;" id="CategorieListContainer"></div>
-    <div id="ExternalHTML" hidden>
+  <body>
+    <div class="Filter" id="FilterDiv">
+      <p class="Filter">Filter:</p>
+      <select class="Filter" id="FilterSelect" autofocus="TRUE">
+      </select>
+    </div>
+    <hr/>
+    <div id="CategorieListContainer"></div>
   </body>
 </html>
