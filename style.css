@@ -1,5 +1,6 @@
 body {
   width: 10cm;
+  height: auto;
 }
 
 p[class=categorie] {

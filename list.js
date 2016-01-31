@@ -77,6 +77,10 @@ function appendGenre(genre){
 }
 
 function strContains(s1,s2){
+  if (s1 == undefined)
+    return null
+  if (s2 == undefined)
+    return null
   return (s1.indexOf(s2) > -1);
 }
 
